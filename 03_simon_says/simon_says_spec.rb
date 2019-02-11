@@ -39,14 +39,11 @@ describe "Simon says" do
       expect(repeat("hello")).to eq("hello hello")
     end
 
-    # Wait a second! How can you make the "repeat" method
-    # take one *or* two arguments?
-    #
-    # Hint: *default values*
-    it "should repeat a number of times" do
+  it "should repeat a number of times" do
       expect(repeat("hello", 3)).to eq("hello hello hello")
     end
   end
+
 
   describe "start_of_word" do
     it "returns the first letter" do
