@@ -1,0 +1,18 @@
+---
+- :secret_word: photon
+  :hidden:
+    p: false
+    h: true
+    o: true
+    t: false
+    n: true
+  :tries: 0
+  :output:
+  - p
+  - "-"
+  - "-"
+  - t
+  - "-"
+  - "-"
+  :used: []
+  :score: 300
